@@ -1,0 +1,2 @@
+구글에 rest frame work in django 검색
+제일 상단 링크 > tutorial > pip install djangorestframework > settings의 INSTALLED_APPS에 'rest_framework' 추가 > urls에 path('api-auth/', include('rest_framework.urls', namespace='rest_framework')) 추가
