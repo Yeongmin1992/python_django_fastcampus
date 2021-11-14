@@ -22,5 +22,6 @@ urlpatterns = [
     path('delivery/', include('delivery.urls')),
     path('admin/', admin.site.urls),
     # rest_framework를 관리해주는 url 설정
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('user/', include('user.urls'))
 ]
